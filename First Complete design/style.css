@@ -1,0 +1,564 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+.contenier{
+    width: 95%;
+    margin: 50px auto;
+    background-color: #fafafc;
+    z-index: -1;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding-top: 50px;
+    background-color: #fafafc;
+    width: 100%;
+}
+.home1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 500px;
+    font-size: 30px;
+}
+.one{
+    color: blue;
+    font-size: 30px;
+}
+.one span{
+    color: black;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: #fafafc;
+    color: blue;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+ .btn1{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+    background-color: #fafafc;
+    width: 100%;
+    padding: 5px 20px
+}
+.btna{
+    display: flex;
+    margin-top: 30px;
+
+}
+.left{
+    width: 50%;
+    padding-left: 20px;
+}
+.right{
+    padding-left: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    position: relative;
+    z-index: 3;
+    
+    
+}
+.boder{
+    position: absolute;
+    top:250px;
+    bottom: 200px;
+    right: 330px;
+    width: 200px;
+    height: 250px;
+    border: 1px solid;
+    border-radius:50% ;
+    background-color: none;
+    z-index: 2;
+}
+.blue{
+    position: absolute;
+    top: 492px;
+    right: 550px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.white{
+    position: absolute;
+    top: 320px;
+    right: 275px;
+    height: 45px;
+    width: 45px;
+    background-color:#c4c0f5 ;
+    border: none;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.darkBlue{
+    position: absolute;
+    top: 477px;
+    right: 330px;
+    height: 50px;
+    width: 50px;
+    background-color: #6a63e6;
+    border: 1px solid;
+    border-radius: 50%;
+    
+}
+.text{
+    font-size: 60px;
+}
+.text span{
+    color: blue;
+}
+ p{
+    font-size: 20px;
+}
+.btnallcategory{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(214, 214, 227);
+    color: blue;
+    padding: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    right: 70px;
+    font-size: 15px;
+}
+.strength {
+    height: 150px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.strengthItem {
+    height: 120px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(241 241 254);
+}
+
+.Item1 {
+    height: 80px;
+    width: 30%;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Item2 {
+    height: 80px;
+    width: 32%;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Item3 {
+    height: 80px;
+    width: 33%;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Item4 {
+    height: 80px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    }
+
+.Item5 {
+    height: 80px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Item6 {
+    height: 80px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 10p; */
+    /* justify-content: center; */
+}
+
+.Book {
+    width: 30%;
+    height: 100%;
+    border: 0px solid;
+    padding: 15px;
+    font: 2.5em sans-serif;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Book2 {
+    width: 30%;
+    height: 100%;
+    border: 0px solid;
+    padding: 15px;
+    font: 2.5em sans-serif;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 172, 177);
+}
+
+.Book3 {
+    width: 30%;
+    height: 100%;
+    border: 0px solid;
+    padding: 15px;
+    font: 2.5em sans-serif;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(233 165 119);
+}
+
+.Book4 {
+    width: 30%;
+    height: 100%;
+    border: 0px solid;
+    padding: 15px;
+    font: 2.5em sans-serif;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(156, 27, 216);
+}
+
+.value1 {
+    width: 100%;
+    height: 100%;
+    border: 0px solid;
+    /* flex-grow: 1; */
+}
+
+.courses {
+    height: 100px;
+    width: 100%;
+    border: 0px solid;
+}
+
+.BrowserTop {
+    height: 40px;
+    width: 85%;
+    border: 0px solid;
+    padding: 10px 10px 10px 0px;
+}
+
+
+.Books {
+    width: 30%;
+    height: 90%;
+    border: 0px solid;
+    padding: 6px;
+    font: 3em sans-serif;
+    border-radius: 10px;
+}
+
+#Books {
+    width: 30%;
+    height: 90%;
+    border: 0px solid;
+    padding: 6px;
+    font: 3em sans-serif;
+    border-radius: 10px;
+    color: rgb(91 167 226);
+    backdrop-filter: blure(20px);
+    background-color: rgb(221, 225, 230);
+}
+
+.Book1 {
+    width: 30%;
+    height: 90%;
+    border: 0px solid;
+    padding: 6px;
+    font: 3em sans-serif;
+
+    color: rgb(8, 109, 109);
+    border-radius: 10px;
+    background-color: rgb(81, 184, 197);
+}
+
+.BookNo {
+    width: 30%;
+    height: 90%;
+    border: 1px solid;
+    padding: 6px;
+    font: 3em sans-serif;
+    width: 30%;
+    height: 90%;
+    border: 0px solid;
+    padding: 6px;
+    font: 3em sans-serif;
+    border-radius: 10px;
+    color: rgb(8, 109, 109);
+    border-radius: 10px;
+    background-color: rgb(81, 184, 197);
+}
+
+.Books1 {
+    width: 30%;
+    height: 90%;
+    border: 0px solid;
+    padding: 6px;
+    font: 3em sans-serif;
+    border-radius: 10px;
+    background-color: rgb(25, 18, 199);
+    color: white;
+}
+
+.value2 {
+    width: 70%;
+    height: 100%;
+    border: 0px solid;
+    flex-grow: 1;
+    padding-left: 7px;
+    color: rgb(97, 101, 104);
+}
+
+.dollar1 {
+    height: 50px;
+    width: 100%;
+    border: 0px solid;
+    padding: 10px;
+    color: rgb(25, 18, 199);
+    font: 2.5em sans-serif;
+}
+
+.courses>h1 {
+    height: 50px;
+    width: 100%;
+    border: 0px solid;
+}
+
+.strengthItem2 {
+    height: 120px;
+    width: 90%;
+    border: 0px solid;
+    background-color: #f8f0f8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.strengthItem1 {
+    height: 200px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    padding: 10px 60px 10px 60px;
+    gap: 20px;
+    border-radius: 10px;
+ justify-content: space-around;
+     align-items: center;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    font: 2em sans-serif;
+padding: 30px 30px 30px 60px;
+
+}
+
+.courses1 {
+    height: 40px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    font: 1em sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+.dollar1 {
+    height: 50px;
+    width: 100%;
+    border: 0px solid;
+    padding: 10px;
+    color: rgb(25, 18, 199);
+    font: 2.5em sans-serif;
+}
+
+.ToatalCourses {
+    height: 30px;
+    width: 100%;
+    border: 0px solid;
+    padding: 10px;
+    font: 1em sans-serif;
+}
+
+.Experts {
+    height: 30px;
+    width: 100%;
+    border: 0px solid;
+    padding: 10px;
+    font: 0.75em sans-serif;
+}
+
+.design {
+    height: 70%;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    font: 1.5em sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.design1 {
+    height: 90%;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    font: 3em sans-serif;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    background-color: rgb(25, 18, 199);
+}
+
+.design2 {
+    height: 90%;
+    width: 30%;
+    border: 0px solid;
+    display: flex;
+    font: 3em sans-serif;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    color: rgb(253, 127, 10);
+    background-color: rgb(236, 222, 214);
+}
+
+.design3 {
+    height: 90%;
+    width: 30%;
+    border: 0px solid;
+    display: flex;
+    font: 3em sans-serif;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(198 99 84);
+    background-color: rgb(248, 230, 225);
+}
+
+.design4 {
+    height: 90%;
+    width: 30%;
+    border: 0px solid;
+    display: flex;
+    font: 3em sans-serif;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(197 80 208);
+    background-color: rgb(234, 216, 241);
+}
+
+.design5 {
+    height: 90%;
+    width: 30%;
+    border: 0px solid;
+    display: flex;
+    font: 3em sans-serif;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114 211 162);
+    background-color: rgb(228, 235, 230);
+}
+
+.available {
+    font: 0.75em sans-serif;
+}
+
+.boxfrint {
+    position: relative;
+bottom: -20px;
+    right:250px ;
+    width: 290px;
+    height: 240px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(235, 217, 217) 50%, rgb(54, 9, 216) 50%);
+    animation: rotate 50s linear infinite; /* animation ke liye */
+  }
+   
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   

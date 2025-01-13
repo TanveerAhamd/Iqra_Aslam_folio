@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+}
+h1{
+    margin-top: 167px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+     background: linear-gradient(45deg, yellow, deeppink,cyan,lime);
+    background-size: 47px;
+    color: transparent;
+    background-clip: text;
+    width: 15rem;
+     animation-name: vibrate-zoom;
+    animation-duration:30s;
+    
+    
+}
+@keyframes vibrate-zoom{
+     Form{
+        transform: skewY(0deg);}
+    40%{ transform: skewX(30deg);}
+    60%{transform: rotateY(50deg);}
+    80%{transform: skewX(30deg);}
+    To{transform: skewY(0deg); font-size: 60px;}
+}
+.firework {
+    position: relative;
+    opacity: 0;
+    animation: show_fireworks 2s ease-in-out 5s forwards;
+}
+
+@keyframes show_fireworks {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cracker {
+    position: absolute;
+    width: 4px;
+    height: 80px;
+    transform-origin: 50% 100%;
+    overflow: hidden;
+}
+
+.cracker::before {
+    content: 'iqra';
+    background-color: gold;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    animation: fire 2s ease-in-out infinite;
+}
+
+@keyframes fire {
+    0% {
+        top: 100%;
+    }
+    25% {
+        top: 50%;
+    }
+    50% {
+        top: -25%;
+    }
+    75% {
+        top: -50%;
+    }
+    100% {
+        top: -50%;
+    }
+}
+
+.cracker:nth-child(1) {
+    transform: rotate(0deg) translateY(-15px);
+}
+.cracker:nth-child(2) {
+    transform: rotate(30deg) translateY(-15px);
+}
+.cracker:nth-child(3) {
+    transform: rotate(60deg) translateY(-15px);
+}
+.cracker:nth-child(4) {
+    transform: rotate(90deg) translateY(-15px);
+}
+.cracker:nth-child(5) {
+    transform: rotate(120deg) translateY(-15px);
+}
+.cracker:nth-child(6) {
+    transform: rotate(150deg) translateY(-15px);
+}
+.cracker:nth-child(7) {
+    transform: rotate(180deg) translateY(-15px);
+}
+.cracker:nth-child(8) {
+    transform: rotate(210deg) translateY(-15px);
+}
+.cracker:nth-child(9) {
+    transform: rotate(240deg) translateY(-15px);
+}
+.cracker:nth-child(10) {
+    transform: rotate(270deg) translateY(-15px);
+}
+.cracker:nth-child(11) {
+    transform: rotate(300deg) translateY(-15px);
+}
+.cracker:nth-child(12) {
+    transform: rotate(330deg) translateY(-15px);
+}
+
+#firework1 {
+    left: -305px;
+    top: 10px;
+    transform: scale(1);
+}
+
+#firework2 {
+    left: 91px;
+    top: 151px;
+    transform: scale(1);
+}
+
+#firework3 {
+    left: -61px;
+    top: -41%;
+    transform: scale(1);
+}

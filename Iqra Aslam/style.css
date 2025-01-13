@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    color: #2d2a2a;
+}
+
+.container {
+    width: 25%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    height: 90VH;
+    margin-bottom: 20px;
+}
+
+.cardwrapper {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+
+}
+
+
+.cardhead {
+    background-color: #f0f0f0;
+    /* height: 200px; */
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.socialIcons {
+    display: flex;
+    gap: 10px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardimg {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 100%;
+    overflow: hidden;
+
+}
+.cardimg>img {
+    width: 100%;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.boder{
+    width: 37%;
+    border: 1px solid gainsboro;
+    margin-top: 16px;
+}
+.boder1{
+    width: 41%;
+    border: 1px solid gainsboro;
+    margin-top: -9px;
+    margin-left: 188px
+}
+.today{
+    display: flex;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 137px;
+    
+    
+}
+
+.cardbody {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.msgright {
+    width: 80%;
+    height: 65px;
+    margin-left: auto;
+    /* border: 1px solid; */
+    padding: 5px;
+    border-radius: 10px 10px 0px 10px;
+    background-color: #b2d7f8;
+}
+.time{
+    text-align: end;
+    color: rgb(172, 171, 171);
+}
+
+.msgleft {
+width: 80%;
+height: 30px;
+margin-left: -60px;
+
+}
+
+.msgend {
+    width: 80%;
+    margin-left: auto;
+    /* border: 1px solid; */
+    padding: 5px;
+    border-radius: 10px 10px 0px 10px;
+    background-color: #b2d7f8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.msgleft >img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.project{
+    display: flex;
+}
+.project>img{
+    width: 40px;
+    height: 40px;
+
+}
+.icontham{
+    text-align: end;
+    margin-left: 220px;
+    margin-top: -15px;
+}
+.icontham>img{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+
+}
+
+.typemsg {
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(201, 198, 198);
+    border-radius:10px ;
+}

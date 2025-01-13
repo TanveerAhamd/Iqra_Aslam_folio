@@ -1,0 +1,505 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+.continer{
+    width: 100%;
+    height: 820px;
+    margin: auto;
+    background-color: #eff3f4;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+.logo{
+    margin: 50px auto;
+    font-size: 40px;
+}
+.navbar{
+    width: 20%;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+}
+.listitem{
+    display: flex;
+    flex-direction: column;
+    
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.content1{
+    margin-right: 20px;
+}
+.nora{
+    width: 150px;
+    height: 30px;
+     margin: 100px auto;
+}
+.logout{
+    margin-top: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -780px;
+    margin-left: 25%;
+}
+.Dashboard{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+text{
+    margin-left: -50px;
+}
+.Dashboard span i{
+    height: 150px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 30%;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+.icon1{
+margin-left: 100px;
+}
+.Dashboard img{
+    margin-left: -100px;
+}
+.Dashboard h5{
+    margin-top: 10px;
+}
+.wrapper{
+    background-color: #cdc3ff;
+    width: 19%;
+    height: 150PX;
+    border-radius: 10PX;
+    margin-left: 275PX;
+}
+.card{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.number{
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.number p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.wrapper1{
+    background-color: #aac9ff;
+    width: 19%;
+    height: 150PX;
+    border-radius: 10PX;
+    margin-left: 520PX;
+    margin-top: -147px;
+}
+.card1{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrapper2{
+    background-color: #92e3b8;
+    width: 19%;
+    height: 150PX;
+    border-radius: 10PX;
+    margin-left: 773PX;
+    margin-top: -147px;
+}
+.card2{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrapper3{
+    background-color: #1f9aa2;
+    width: 19%;
+    height: 200PX;
+    border-radius: 10PX;
+    margin-left:1026PX;
+    margin-top: -147px;
+}
+.btn{
+    width: 144px;
+    height: 44px;
+    padding: 15px;
+    background-color: #cbf563;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.graph{
+    background-color: white;
+    margin-top: -23px;
+    margin-left: 282px;
+    width: 38%;
+    height: 252px
+}
+.regular{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.sell{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn1{
+    width: 74px;
+    height: 30px;
+    background-color: #cbf563;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+.rate{
+    padding:5px 20px;
+    }
+.bodr{
+    width: 356px;
+ border: 1px dashed gainsboro;
+    margin-left: 49px;
+}
+.week{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+.shap1{
+width: 5px;
+height: 100px;
+background-color: #cdc3ff;
+}
+.shap2{
+    width: 5px;
+    margin-left: 10px;
+    margin-top: -50px;
+    height: 50px;
+    background-color: #92e3b8;
+}
+
+.shap4{
+width: 5px;
+margin-left: 20px;
+height: 100px;
+background-color: #cdc3ff;
+}
+.shap3{
+    width: 5px;
+    margin-left: 10px;
+    margin-top: -50px;
+    height: 50px;
+    background-color: #92e3b8;
+}
+.card5{
+    
+    width: 241px;
+    height: 249px;
+    background-color: #eff3f4;
+    margin-left: 770px;
+    margin-top: -534px;
+    position: absolute;
+    z-index: 3
+}
+.white{
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.white2{
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.white i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.white2 i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.Analysis{
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.Analysis i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cbf563;
+}
+.main{
+    width: 737px;
+    height: 250px;
+    background-color: white;
+    margin-top: -250px;
+    margin-left: 275px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 3;
+    
+}
+.topstore{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.contnt{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: gray;
+}
+.boder1{
+border: 1px solid grey;
+margin: 20px 10px;
+}
+.solar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.teamwork{
+    background-color: white;
+    width: 222px;
+    height: 194px;
+    margin-left: 1028px;
+    margin-top: -491px;
+    padding: 10px;
+    position: absolute;
+    z-index: 3;
+}
+.member{
+    font-size: 20px;
+    font-weight: bold;
+}
+.icon7{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #1f9aa2;
+    padding: 5px;
+}
+.personal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.person{
+    
+    margin-top: 10px;
+    background-color: rgb(182, 209, 209);
+    width: 82px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.eightpm{
+    margin-top: 10px;
+    background-color: rgb(184, 209, 209);
+    width: 82px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.images{
+    
+    position: absolute;
+    z-index: 3;
+}
+.img{
+    display: flex;
+    font-size: 19px;
+    margin-left: 20px;
+}
+.img1{
+  
+    margin-left: -31px;
+    position: absolute;
+    z-index: 4;
+
+}
+.img2{
+    position: absolute;
+    z-index: 5;
+    margin-left: -19px;
+}
+.img3{
+    position: absolute;
+    z-index: 6;
+    margin-left: -3px;
+}
+.meetimg{
+    margin-left: 27px;
+}
+.btn7{
+    background-color: black;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+
+
+}
+.graph3{
+    position: absolute;
+    z-index: 4;
+    margin-left: 43px;
+    margin-top: -178px;
+
+}
+.CARDS3{
+    width: 231px;
+    height: 296px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 1026px;
+    margin-top: -286px;
+    position: absolute;
+    z-index: 3;
+}
+.iqraportrate{
+    width: 20%;
+    height: 40PX;
+    padding-left: 10PX;
+    border-radius: 10PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae7f7;
+}
+.iqraportrate>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.iqradiv1{
+    width: 90%;
+    height: 14%;
+    display: flex;
+    color: black;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: space-evenly;
+    
+
+}
+.iqradiv2{
+    width: 90%;
+    height: 15%;
+    display: flex;
+align-items: center;
+font-size: 13px;
+    justify-content: space-evenly;
+    background: #eae7f7;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+.iqradiv3{
+    font-size: 13px;
+    width: 90%;
+    margin-top: 5px;
+    height: 15%;
+    display: flex;
+align-items: center;
+    justify-content: space-evenly;
+    background: #eae7f7;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.iqradiv4{
+    font-size: 13px;
+    width: 90%;
+    margin-top: 5px;
+    height: 15%;
+    display: flex;
+align-items: center;
+    justify-content: space-evenly;
+    background: #eae7f7;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.iqradiv5{
+    font-size: 13px;
+    width: 90%;
+    margin-top: 5px;
+    height: 15%;
+    display: flex;
+align-items: center;
+    justify-content: space-evenly;
+    background: #eae7f7;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.iqradiv6{
+    margin-top: 5px;
+    font-size: 13px;
+    width: 88%;
+    height: 13%;
+    display: flex;
+    border-radius: 10px;
+    background-color: #d3e2f8;
+align-items: center;
+    justify-content: space-evenly;
+    background: #6a5ea1;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.addition{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.addmoremember{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

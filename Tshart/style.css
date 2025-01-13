@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+
+    height: 100%;
+    place-items: center;
+    background: #456ABD;
+    width: 100%;
+    margin-top: 20px;
+}
+.container {
+    position: relative;
+    height: 500px;
+    width: 380px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.container .image {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.container .card-content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.card-content .wrapper {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    background: #fff;
+    padding: 10px 25px;
+    box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.1);
+}
+.container .card-content .wrapper {
+    bottom: 0px;
+}
+.wrapper .title {
+    font-size: 22px;
+    font-weight: 500;
+}
+.wrapper p {
+    font-size: 17px;
+    color: grey;
+}
+.wrapper .price {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #456ABD;
+}
+
+.wrapper .content {
+    margin: 10px 0;
+}
+
+.wrapper .content .name {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.wrapper .content .size-value {
+    width: 50%;
+    display: flex;
+    margin: 5px 0;
+
+}
+.content .size-value span {
+    display: block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #456ABD;
+}
+.content .size-value span.active {
+    /* background: #456ABD; */
+    /* color: #fff; */
+}
+.content .colour-value {
+    width: 30%;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.content .colour-value span {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.white {
+    background: lightgrey;
+}
+.blue {
+    background: #456ABD;
+}
+.yellow {
+    background: #EAA523;
+}
+
+.wrapper .btns {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+
+}
+.btns button {
+    height: 40px;
+    width: 100%;
+    margin: 0 10px;
+    border: 2px solid #456ABD;
+    background: #456ABD;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
